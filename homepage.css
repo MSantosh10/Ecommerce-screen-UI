@@ -1,0 +1,486 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Splash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@800&display=swap');
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(88, 201, 238);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.Neptune {
+    font-size: 1.2rem;
+    font-family: 'Edu SA Beginner', cursive;
+    margin-left: 2.3rem;
+}
+
+.Neptune h4 {
+    font-family: 'Splash', cursive;
+    font-size: 1rem;
+}
+
+.Neptune a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.search input {
+    font-family: 'Lobster', cursive;
+}
+
+.search input {
+    padding: .3rem;
+    width: 20rem;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    outline-style: none;
+
+}
+
+
+button {
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.shopitems button {
+    margin-right: 2rem;
+    width: fit-content;
+    border-radius: .35rem;
+}
+
+
+.shopitems button a {
+    font-size: 1.3rem;
+    text-decoration: none;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    outline-style: none;
+    padding-left: 1rem;
+    color: black;
+    padding-right: 1rem;
+
+}
+
+.shopitems button a:hover {
+    font-size: 1.3rem;
+    text-decoration: none;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    outline-style: none;
+    background-color: rgb(88, 201, 238);
+    color: white;
+    padding-right: 1rem;
+}
+
+
+.shopitems a:nth-child(2) {
+    font-size: 1.7rem;
+    text-decoration: none;
+    margin-right: 1.5rem;
+    color: white;
+}
+
+.shopitems a:nth-child(3) {
+    font-size: 1.7rem;
+    text-decoration: none;
+    margin-right: 3rem;
+    color: white;
+}
+
+
+/*                  homepage */
+
+.homepage {
+    display: flex;
+    height: max-content;
+}
+
+.right {
+    width: 100%;
+}
+
+
+.left {
+    border-right: 8px solid rgb(88, 201, 238);
+    height: 100vh;
+    width: 20%;
+    position: sticky;
+    top: 4rem;
+    ;
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+}
+
+/*                                              Left    filter body */
+
+
+
+.filter {
+
+    font-weight: bold;
+    display: inline;
+    position: relative;
+    top: 8px;
+
+}
+
+.clear {
+    height: 1.5rem;
+    margin-top: 10px;
+    display: inline;
+    color: black;
+    float: right;
+}
+
+.price p {
+    margin-top: .7rem;
+}
+
+.allp {
+    font-weight: bolder;
+    color: gray;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Category {
+    margin-top: .5rem;
+}
+
+.rangein {
+    cursor: pointer;
+    width: 100%;
+    height: 8vh;
+}
+
+.availability {
+    margin-top: .5rem;
+}
+
+.rating {
+    margin-top: .5rem;
+}
+
+
+.instock {
+    font-size: 14px;
+}
+
+.fast {
+    font-size: 14px;
+    height: 2rem;
+}
+
+.nikkon {
+    font-size: 12px;
+}
+
+.canon {
+
+    font-size: 12px;
+}
+
+.sony {
+    font-size: 12px;
+}
+
+.panasonic {
+    font-size: 12px;
+}
+
+.samsung {
+    font-size: 12px;
+    height: 1.8rem;
+}
+
+.star4 {
+    font-size: 14px;
+}
+
+.star3 {
+    font-size: 14px;
+}
+
+.star2 {
+    font-size: 14px;
+}
+
+.star1 {
+    font-size: 14px;
+}
+
+.highlow {
+    margin-top: .5rem;
+}
+
+
+.high {
+    font-size: 14px;
+}
+
+.low {
+    font-size: 14px;
+}
+
+
+
+/*                                  Right main page   All boxes            */
+.b1 {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-evenly;
+    margin: 1.5rem;
+}
+
+
+.b2 {
+    margin-top: .8rem;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-evenly;
+    margin: 1.5rem;
+}
+
+.b3 {
+    margin-top: .8rem;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-evenly;
+    margin: 1.5rem;
+}
+
+.b4 {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-evenly;
+    margin: 1.5rem;
+}
+
+.b5 {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-evenly;
+    margin: 1.5rem;
+
+}
+
+.b6 {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-evenly;
+    margin: 1.5rem;
+}
+
+.b7 {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-evenly;
+    margin: 1.5rem;
+
+}
+
+.b8 {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-evenly;
+    margin: 1.5rem;
+}
+
+.b9 {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-evenly;
+    margin: 1.5rem;
+}
+
+.b10 {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-evenly;
+    margin: 1.5rem;
+}
+
+.b1 img {
+    height: 30vh;
+    width: 15vw;
+    border-radius: 20%;
+    padding: 1rem;
+}
+
+.b2 img {
+    height: 32vh;
+    width: 16vw;
+    border-radius: 20%;
+    padding: 1rem;
+}
+
+.b3 img {
+    height: 30vh;
+    width: 20vw;
+    border-radius: 20%;
+    padding: 1rem;
+}
+
+.b4 img {
+    height: 30vh;
+    width: 18vw;
+    border-radius: 20%;
+    padding: 1rem;
+}
+
+.b5 img {
+    height: 35vh;
+    width: 18vw;
+    border-radius: 20%;
+    padding: 1rem;
+}
+
+.b6 img {
+    height: 32vh;
+    width: 18vw;
+    border-radius: 10rem;
+    padding: 1rem;
+}
+
+.b7 img {
+    height: 35vh;
+    width: 18vw;
+    border-radius: 10%;
+    padding: 1rem;
+}
+
+.b8 img {
+    height: 32vh;
+    width: 20vw;
+    border-radius: 20%;
+    padding: 1rem;
+}
+
+.b9 img {
+    height: 30vh;
+    width: 16vw;
+    border-radius: 20%;
+    padding: 1rem;
+}
+
+.b10 img {
+    height: 32vh;
+    width: 16vw;
+    border-radius: 20%;
+    padding: 1rem;
+}
+
+.list {
+    font-size: 12px;
+    /* border: 2px solid black; */
+}
+
+.rating {
+    /* border: 2px solid black; */
+    margin-bottom: .9rem;
+}
+
+.prices del {
+    font-size: 12px;
+}
+
+
+ol li:nth-child(3) {
+    font-size: 13px;
+}
+
+ol li:nth-child(4) {
+    font-weight: bold;
+}
+
+
+.prices {
+    list-style-type: none;
+
+}
+
+.off {
+    display: inline;
+    font-size: 11px;
+
+}
+
+.add {
+    color: rgb(40, 175, 220);
+    border-color: rgb(0, 184, 245);
+    background-color: white;
+    font-size: 1.2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    height: 1.8rem;
+    margin-top: 1rem;
+}
+
+/*                  footer */
+
+.footer {
+    background-color: rgb(85, 168, 195);
+    color: white;
+    width: 100%;
+    height: 8rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* gap: 2rem; */
+    justify-items: center;
+}
+
+
+.about h3 {
+    color: black;
+    font-family: 'Inconsolata', monospace;
+}
+
+.about div {
+    margin-top: .5rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    font-size: 12px;
+}
+
+.help h3 {
+    color: black;
+    font-family: 'Inconsolata', monospace;
+}
+
+.help div {
+    margin-top: .5rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    font-size: 12px;
+}
+
+.contactus h3 {
+    color: black;
+    font-family: 'Inconsolata', monospace;
+}
+
+.contactus div {
+    margin-top: .5rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    font-size: 12px;
+}

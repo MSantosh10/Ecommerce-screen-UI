@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .main{
+            border: 2px solid black;
+            display: grid;
+            width: 100%;
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas: "c3 c3"
+                                  "c1 c2";
+        }
+        .item1{
+            border: 5px solid red;
+            grid-area: c1;
+            /* height: 100vh; */
+
+        }
+        .item2{
+            border: 5px solid green;
+            height: 100vh;
+            grid-area: c2;
+        }
+        .item3{
+            border: 5px solid blue;
+            height: 100vh;
+            grid-area: c3;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="item1">child 1</div>
+        <div class="item2">child 2</div>
+            <div class="item3">child 3</div>
+    </div>
+</body>
+</html>
